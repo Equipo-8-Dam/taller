@@ -1,0 +1,8 @@
+# Ignorar node_modules
+node_modules/
+
+# Ignorar base de datos SQLite
+src/database.sqlite
+
+# Ignorar configuraciones de entorno
+.env
