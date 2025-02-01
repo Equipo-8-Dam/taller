@@ -14,7 +14,8 @@ Antes de comenzar, asegúrate de tener instalado en tu sistema
 
 Abre una terminal y ejecuta
 
-git clone httpsgithub.comTU_USUARIOventa-vehiculos.git
+git clone https://github.com/Equipo-8-Dam/taller
+
 cd venta-vehiculos
 
 🔷 2️⃣ Configurar Variables de Entorno
@@ -22,11 +23,17 @@ cd venta-vehiculos
 Crea un archivo .env en la carpeta backend y agrega lo siguiente
 
 PORT=5000
+
 DB_DIALECT=sqlite
+
 DB_STORAGE=src/database.sqlite
+
 DB_USERNAME=root
+
 DB_PASSWORD=
+
 DB_DATABASE=venta_vehiculos
+
 DB_HOST=127.0.0.1
 
 🔷 3️⃣ Instalar Dependencias
@@ -34,6 +41,7 @@ DB_HOST=127.0.0.1
 Ejecuta estos comandos en la raíz del proyecto
 
 cd backend
+
 npm install
 
 🔷 4️⃣ Configurar la Base de Datos
@@ -57,6 +65,7 @@ npm start
 Si todo está bien, verás:
 
 🚀 Servidor corriendo en http://localhost:5000
+
 ✅ Base de datos conectada correctamente.
 
 📌 Frontend
