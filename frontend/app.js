@@ -123,7 +123,7 @@ function editarVehiculo(id) {
             document.getElementById("tipo").value = vehiculo.tipo;
 
             // Cambiar el botón de agregar a "Actualizar"
-            document.getElementById("submit-button").textContent = "Actualizar Vehículo";
+            document.getElementById("submit-button").textContent = "Update Vehicle";
             document.getElementById("submit-button").setAttribute("data-id", id);
         })
         .catch(error => console.error("❌ Error al obtener vehículo:", error));
@@ -137,6 +137,6 @@ function limpiarFormulario() {
     document.getElementById("precio").value = "";
     document.getElementById("kilometraje").value = "";
     document.getElementById("tipo").value = "";
-    document.getElementById("submit-button").textContent = "Agregar Vehículo";
+    document.getElementById("submit-button").textContent = "Add Vehicle";
     document.getElementById("submit-button").removeAttribute("data-id");
 }
