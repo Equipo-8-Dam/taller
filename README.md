@@ -1,6 +1,6 @@
 🚀 Proyecto Venta de Vehículos
 
-Este es un sistema de gestión de venta de vehículos desarrollado con Node.js, Express, Sequelize y SQLiteMySQL en el backend, y un frontend en HTML + JavaScript.
+Este es un sistema de gestión de venta de vehículos desarrollado con Node.js, Express, Sequelize y SQLite en el backend, y un frontend en HTML + JavaScript.
 
 📌 Requisitos Previos
 
@@ -43,15 +43,6 @@ npm install
 Ejecuta el siguiente comando para crear la base de datos y aplicar las migraciones
 
 npx sequelize-cli dbmigrate
-
-🔵 Opción 2 Usando MySQL
-
-Si usas MySQL, asegúrate de crear la base de datos manualmente con
-
-CREATE DATABASE venta_vehiculos;
-Luego edita backend/src/config/config.json y reemplaza sqlite por mysql. Después, ejecuta:
-
-npx sequelize-cli db:migrate
 
 🔷 5️⃣ Ejecutar el Servidor
 
