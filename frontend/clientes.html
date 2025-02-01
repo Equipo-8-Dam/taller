@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gestión de Clientes</title>
+    <title>Client Management</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,25 +11,25 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">🚗 Vehículos</a></li>
-                <li><a href="clientes.html">👥 Clientes</a></li>
+                <li><a href="index.html">🚗 Vehicles</a></li>
+                <li><a href="clientes.html">👥 Clients</a></li>
             </ul>
         </nav>
     </header>
 
-    <h1>👥 Gestión de Clientes</h1>
+    <h1>👥 Client Management</h1>
 
-    <h2>Lista de Clientes</h2>
+    <h2>Client List</h2>
     <table>
         <thead>
             <tr>
                 <th>ID</th>
-                <th>Nombre</th>
-                <th>Apellido</th>
+                <th>Name</th>
+                <th>Surname</th>
                 <th>Email</th>
-                <th>Teléfono</th>
-                <th>Dirección</th>
-                <th>Acción</th>
+                <th>Phone</th>
+                <th>Direction</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody id="clientes-table">
@@ -39,12 +39,12 @@
 
     <h2>Agregar Nuevo Cliente</h2>
     <form id="cliente-form">
-        <input type="text" id="nombre" placeholder="Nombre" required>
-        <input type="text" id="apellido" placeholder="Apellido" required> <!-- ✅ Nuevo campo -->
+        <input type="text" id="nombre" placeholder="Name" required>
+        <input type="text" id="apellido" placeholder="Surname" required> <!-- ✅ Nuevo campo -->
         <input type="email" id="email" placeholder="Email" required>
-        <input type="text" id="telefono" placeholder="Teléfono" required>
-        <input type="text" id="direccion" placeholder="Dirección" required>
-        <button type="submit" id="submit-button">Agregar Cliente</button>
+        <input type="text" id="telefono" placeholder="Phone" required>
+        <input type="text" id="direccion" placeholder="Direction" required>
+        <button type="submit" id="submit-button">Add Client</button>
     </form>
     
     <script src="clientes.js"></script>

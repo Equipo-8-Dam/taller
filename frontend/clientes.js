@@ -119,7 +119,7 @@ function editarCliente(id) {
             document.getElementById("direccion").value = cliente.direccion;
 
             // Cambiar el botón de agregar a "Actualizar"
-            document.getElementById("submit-button").textContent = "Actualizar Cliente";
+            document.getElementById("submit-button").textContent = "Update Customer";
             document.getElementById("submit-button").setAttribute("data-id", id);
         })
         .catch(error => console.error("❌ Error al obtener cliente:", error));
