@@ -1,8 +1,8 @@
-🚀 # Proyecto Venta de Vehículos
+🚀 Proyecto Venta de Vehículos
 
 Este es un sistema de gestión de venta de vehículos desarrollado con Node.js, Express, Sequelize y SQLiteMySQL en el backend, y un frontend en HTML + JavaScript.
 
-📌 # Requisitos Previos
+📌 Requisitos Previos
 
 Antes de comenzar, asegúrate de tener instalado en tu sistema
 
@@ -68,7 +68,7 @@ Si todo está bien, verás:
 🚀 Servidor corriendo en http://localhost:5000
 ✅ Base de datos conectada correctamente.
 
-📌 # Frontend
+📌 Frontend
 
 El frontend está en la carpeta frontend/. Para visualizar la app, abre frontend/index.html en un navegador.
 
